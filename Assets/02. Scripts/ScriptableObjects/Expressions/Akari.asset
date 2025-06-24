@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1610677dedb4b54990de316ce11cd56, type: 3}
+  m_Name: Akari
+  m_EditorClassIdentifier: 
+  characterName: "\uC544\uCE74\uB9AC"
+  expressions:
+  - emotion: happy
+    sprites:
+    - {fileID: -2964379801879188243, guid: 5ac5c40f4ac285245bb0f3422a0b3307, type: 3}
+    - {fileID: -4379161290042824167, guid: 7327c61e52770e3448fc5c29f4d37c2b, type: 3}
+    - {fileID: -5764875127686323077, guid: 459f81aed1532244cabefb59a3883626, type: 3}
+    - {fileID: -1999261997368785943, guid: 575329aab83f2674287c24e5286a7e17, type: 3}
+    - {fileID: -797755840711842777, guid: ba5c694bfc214a344a1278499d81c0ed, type: 3}
+    - {fileID: 4267948971768863674, guid: 60db8e4cd5f6c0c49a2dade92f2701f4, type: 3}
+  - emotion: determined
+    sprites:
+    - {fileID: -4105962493358243594, guid: c094dcaaf65128242b1a72d15c37471a, type: 3}
+    - {fileID: -8492523111856110475, guid: ec8f79344fc5a294f8a7fea132b155a6, type: 3}
+    - {fileID: -1746008384129253645, guid: 91f41b8f03cd3974abca06e5ce399652, type: 3}
+    - {fileID: -4105988157844873481, guid: 5cfcbcef623dd7e46af9f0fd3efb7a7e, type: 3}
+    - {fileID: -5733231244477806655, guid: df1148bebb3d56844b7f8b9a86d5de26, type: 3}
+    - {fileID: 7833656463542081809, guid: a4818bf4219d9324ea508e07cfd3c4e5, type: 3}
+  - emotion: apologetic
+    sprites:
+    - {fileID: -8318442148878095257, guid: 774e594c3d2ff1948acee1ace5355944, type: 3}
+    - {fileID: -1565765799517940705, guid: 5b4fe7f4c1b301a46938084e5a57b095, type: 3}
+    - {fileID: -8079751712803265862, guid: ebadf9f2e8bcfec489397586617433c8, type: 3}
+    - {fileID: -1160151881481982041, guid: 39470c21cba27c0478cec192e50f0d79, type: 3}
+  - emotion: cheerful
+    sprites:
+    - {fileID: -2431580984594635283, guid: ea0d7e0e5284c934784a70773223470c, type: 3}
+    - {fileID: -1319229647468061038, guid: 6a5a11f19880f9f48bb07832be79cfca, type: 3}
+  - emotion: curious
+    sprites:
+    - {fileID: 449786777662082179, guid: 1816a698e25cd09418e1541e0c1d655d, type: 3}
+    - {fileID: -3077737353085796208, guid: 525f9379430d9694e9684d6acc5ef2fb, type: 3}
+    - {fileID: -5854363746199780687, guid: 4ced99db29c3d16478d613e392e5c463, type: 3}
+    - {fileID: -2424048699440706595, guid: 197e357dd872c7840b9070529d572023, type: 3}
+    - {fileID: 6099299879817430988, guid: b78290199ce963643b13ec4520f67858, type: 3}
+    - {fileID: 360520200815470978, guid: 9a2ea7e8cf1bd0b4db36d7f590949b63, type: 3}
+  - emotion: energetic
+    sprites:
+    - {fileID: -6925438653090502284, guid: 79c6bed393fbdb6428278e92207f1570, type: 3}
+    - {fileID: 6184259679956122219, guid: 4cfbc8149bb005444a3c3107adc1a328, type: 3}
+  - emotion: frustrated
+    sprites:
+    - {fileID: -4899330168303405370, guid: 8a4dc9bb1916a854ea063e6e8a346072, type: 3}
+    - {fileID: -2674782900447155878, guid: a495a35b3297aba43ac5ab37a13d9f48, type: 3}
+    - {fileID: -1178202041526212006, guid: 3b27464305a3cdd458b2d53fe72ab7ac, type: 3}
+    - {fileID: -6492358961365100211, guid: f1ede599a83572348a4a1d9b9e6fd1af, type: 3}
+  - emotion: hopeful
+    sprites:
+    - {fileID: -115643625104840711, guid: 1bb6c32a42694e144a8ae7694ff1fd08, type: 3}
+    - {fileID: 7125036456520231124, guid: 5ec0222f12194974084812fafb53e14e, type: 3}
+  - emotion: motivated
+    sprites:
+    - {fileID: 9070916090553084861, guid: c3698d0a0dbef8546b26107a60cb4b22, type: 3}
+    - {fileID: -6881792821968034265, guid: 77478b4e03038a34c99d8044e9a489ef, type: 3}
+  - emotion: cheerful
+    sprites:
+    - {fileID: 1638092555025747469, guid: db6bf6f88e4fde740b10a495dd7b8986, type: 3}
+    - {fileID: -1214492471261627210, guid: 066dce64f31143746afd336d4cf3653e, type: 3}
+    - {fileID: -8028218771039948040, guid: 826643b9a1cadae49a8e619466a97ec8, type: 3}
+  - emotion: cheerful
+    sprites:
+    - {fileID: -3628416955852178688, guid: 97710a6b1da3d63499b554adb5b2775c, type: 3}
+    - {fileID: -190600713282587527, guid: 9b5530c9074c8c04b9c06c77e7595cb9, type: 3}
+    - {fileID: -4188304954802812453, guid: 2bb88e70fcb95b24c88a303eb3032313, type: 3}
+    - {fileID: -8600706771397497563, guid: 5105c03a6e04dcc43bfa588ea3284341, type: 3}
+  - emotion: cheerful
+    sprites:
+    - {fileID: 9092333878288811792, guid: a5d646d0cbe406043b59d9abf0c30d8a, type: 3}
+    - {fileID: -1606972037680320953, guid: f1fa024c1a7be724ab38833e9165b78a, type: 3}
+    - {fileID: 2645316802788339559, guid: fb336e4b0a455774c92de0879ca70d16, type: 3}
+    - {fileID: 4480319917013977200, guid: 44658cac8369e4942849712b4caaa8eb, type: 3}
+    - {fileID: -5063830580925989779, guid: 17b9358d998c2774c915c465755c5ea4, type: 3}
+    - {fileID: 3142534173874361917, guid: 37c793733cba0db4abbdb355f711a940, type: 3}
+    - {fileID: -2838756334975869972, guid: 686857adbc47a42408666a383aa38d1f, type: 3}
+    - {fileID: 8694148342930843002, guid: ec861fbdde07797479494763a4105f06, type: 3}
+    - {fileID: -7443118768244738912, guid: 9f0b70324cff7a5428be526bbd3368af, type: 3}
+  - emotion: sad
+    sprites:
+    - {fileID: 2370951723245628902, guid: 9ae7ee1db3fb8ba429004b7cd457a762, type: 3}
+    - {fileID: -6410111779224258671, guid: 31e4d2e3a08aeac4db47af281e1e0255, type: 3}
+    - {fileID: 6256699127401466459, guid: c34b854fe84faae468547917ae9fc83a, type: 3}
+    - {fileID: -524539055547589754, guid: f1b2d714987b9f747997b834b3a2fc44, type: 3}
+  - emotion: surprised
+    sprites:
+    - {fileID: -8829640552976987378, guid: 92f800fb217f730489f863b87dba2a6b, type: 3}
+    - {fileID: 5150435587403792993, guid: 2bf1e27a23ab48d4d9908d4b6e36e4e9, type: 3}
+    - {fileID: -8521764277554679809, guid: 7d0afb6720dc6ac4ab3c11e6595cd797, type: 3}
+    - {fileID: -5871937041751467211, guid: 3ee7c66b9f6966e4794b97e8b5401b11, type: 3}
+    - {fileID: 1306787800510237520, guid: 72ba1b0b020843648a0cbcd65a5434b5, type: 3}
+  - emotion: understanding
+    sprites:
+    - {fileID: -9175329492527958811, guid: 040723906c2fe5c4eb3c758dca326f99, type: 3}
+    - {fileID: 1270669813669155538, guid: f91a970b21994e149a5c29c0347ceb57, type: 3}
+  - emotion: understanding
+    sprites:
+    - {fileID: -9175329492527958811, guid: 040723906c2fe5c4eb3c758dca326f99, type: 3}
+    - {fileID: 1270669813669155538, guid: f91a970b21994e149a5c29c0347ceb57, type: 3}
