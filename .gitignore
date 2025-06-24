@@ -73,3 +73,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+/[Aa]ssets/02. Scripts/0. APIKEY/OpenAISettings.asset
+/[Aa]ssets/02. Scripts/0. APIKEY/OpenAISettings.asset.meta
+/[Aa]ssets/02. Scripts/0. APIKEY/OpenAISettings_Teacher.asset.meta
+/[Aa]ssets/02. Scripts/0. APIKEY/OpenAISettings_Teacher.asset
+/[Aa]ssets/Resources/OpenAIConfiguration.asset
+/[Aa]ssets/Resources/OpenAIConfiguration.asset.meta
