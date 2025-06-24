@@ -66,18 +66,18 @@ MonoBehaviour:
     sprites:
     - {fileID: 9070916090553084861, guid: c3698d0a0dbef8546b26107a60cb4b22, type: 3}
     - {fileID: -6881792821968034265, guid: 77478b4e03038a34c99d8044e9a489ef, type: 3}
-  - emotion: cheerful
+  - emotion: nervous but determined
     sprites:
     - {fileID: 1638092555025747469, guid: db6bf6f88e4fde740b10a495dd7b8986, type: 3}
     - {fileID: -1214492471261627210, guid: 066dce64f31143746afd336d4cf3653e, type: 3}
     - {fileID: -8028218771039948040, guid: 826643b9a1cadae49a8e619466a97ec8, type: 3}
-  - emotion: cheerful
+  - emotion: playful
     sprites:
     - {fileID: -3628416955852178688, guid: 97710a6b1da3d63499b554adb5b2775c, type: 3}
     - {fileID: -190600713282587527, guid: 9b5530c9074c8c04b9c06c77e7595cb9, type: 3}
     - {fileID: -4188304954802812453, guid: 2bb88e70fcb95b24c88a303eb3032313, type: 3}
     - {fileID: -8600706771397497563, guid: 5105c03a6e04dcc43bfa588ea3284341, type: 3}
-  - emotion: cheerful
+  - emotion: proud
     sprites:
     - {fileID: 9092333878288811792, guid: a5d646d0cbe406043b59d9abf0c30d8a, type: 3}
     - {fileID: -1606972037680320953, guid: f1fa024c1a7be724ab38833e9165b78a, type: 3}
@@ -105,7 +105,12 @@ MonoBehaviour:
     sprites:
     - {fileID: -9175329492527958811, guid: 040723906c2fe5c4eb3c758dca326f99, type: 3}
     - {fileID: 1270669813669155538, guid: f91a970b21994e149a5c29c0347ceb57, type: 3}
-  - emotion: understanding
+  - emotion: idle
     sprites:
-    - {fileID: -9175329492527958811, guid: 040723906c2fe5c4eb3c758dca326f99, type: 3}
-    - {fileID: 1270669813669155538, guid: f91a970b21994e149a5c29c0347ceb57, type: 3}
+    - {fileID: 449786777662082179, guid: 1816a698e25cd09418e1541e0c1d655d, type: 3}
+    - {fileID: -3077737353085796208, guid: 525f9379430d9694e9684d6acc5ef2fb, type: 3}
+  - emotion: excited
+    sprites:
+    - {fileID: -1999261997368785943, guid: 575329aab83f2674287c24e5286a7e17, type: 3}
+    - {fileID: -6925438653090502284, guid: 79c6bed393fbdb6428278e92207f1570, type: 3}
+    - {fileID: -190600713282587527, guid: 9b5530c9074c8c04b9c06c77e7595cb9, type: 3}

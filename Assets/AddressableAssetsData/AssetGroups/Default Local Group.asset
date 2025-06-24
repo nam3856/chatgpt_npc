@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: e5d6a4206c19869468ae113542ab97e5
+  m_SerializeEntries:
+  - m_GUID: 02759625c89cd8d488e3be03d76bed29
+    m_Address: Assets/04. Images/Akari/Akari NoSmile.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 040723906c2fe5c4eb3c758dca326f99
+    m_Address: Akari/Akari_understanding_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 066dce64f31143746afd336d4cf3653e
+    m_Address: Akari/Akari_nervous but determined_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13cf0d6cfabd7d94898b19afed2e25e1
+    m_Address: Akari/Akari_embarrassed_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17b9358d998c2774c915c465755c5ea4
+    m_Address: Akari/Akari_proud_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1816a698e25cd09418e1541e0c1d655d
+    m_Address: Akari/Akari_idle_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 197e357dd872c7840b9070529d572023
+    m_Address: Akari/Akari_curious_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bb6c32a42694e144a8ae7694ff1fd08
+    m_Address: Akari/Akari_hopeful_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f2daf24fa0270641a2f203dc0ff9577
+    m_Address: Assets/02. Scripts/ScriptableObjects/Rule/Rule.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rule_GlobalRule
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2614a51a65216a24da17952c14ca3849
+    m_Address: Assets/02. Scripts/ScriptableObjects/Expressions/Akari.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CharacterExpressions
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bb88e70fcb95b24c88a303eb3032313
+    m_Address: Akari/Akari_playful_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bf1e27a23ab48d4d9908d4b6e36e4e9
+    m_Address: Akari/Akari_surprised_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30bc931493f7c4d429286c37d5d9724c
+    m_Address: Akari/Akari_curious_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31e4d2e3a08aeac4db47af281e1e0255
+    m_Address: Akari/Akari_sad_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37c793733cba0db4abbdb355f711a940
+    m_Address: Akari/Akari_proud_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39470c21cba27c0478cec192e50f0d79
+    m_Address: Akari/Akari_apologetic_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b27464305a3cdd458b2d53fe72ab7ac
+    m_Address: Akari/Akari_frustrated_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ee7c66b9f6966e4794b97e8b5401b11
+    m_Address: Akari/Akari_surprised_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44658cac8369e4942849712b4caaa8eb
+    m_Address: Akari/Akari_proud_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 459f81aed1532244cabefb59a3883626
+    m_Address: Akari/Akari_happy_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 482ba66d5fd4d3544babb4f01af4246c
+    m_Address: Assets/02. Scripts/ScriptableObjects/Fersona/Akari.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character_Akari
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4961ce775458f954a9adc36a429ee0b8
+    m_Address: Assets/02. Scripts/ScriptableObjects/Fersona/Yui.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character_Yui
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ced99db29c3d16478d613e392e5c463
+    m_Address: Akari/Akari_curious_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cfbc8149bb005444a3c3107adc1a328
+    m_Address: Akari/Akari_energetic_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5105c03a6e04dcc43bfa588ea3284341
+    m_Address: Akari/Akari_playful_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525f9379430d9694e9684d6acc5ef2fb
+    m_Address: Akari/Akari_idle_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 575329aab83f2674287c24e5286a7e17
+    m_Address: Akari/Akari_happy_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ac5c40f4ac285245bb0f3422a0b3307
+    m_Address: Akari/Akari_happy_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b4fe7f4c1b301a46938084e5a57b095
+    m_Address: Akari/Akari_apologetic_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cfcbcef623dd7e46af9f0fd3efb7a7e
+    m_Address: Akari/Akari_determined_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ec0222f12194974084812fafb53e14e
+    m_Address: Akari/Akari_hopeful_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60db8e4cd5f6c0c49a2dade92f2701f4
+    m_Address: Akari/Akari_happy_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 686857adbc47a42408666a383aa38d1f
+    m_Address: Akari/Akari_proud_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a5a11f19880f9f48bb07832be79cfca
+    m_Address: Akari/Akari_cheerful_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ba1b0b020843648a0cbcd65a5434b5
+    m_Address: Akari/Akari_surprised_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7327c61e52770e3448fc5c29f4d37c2b
+    m_Address: Akari/Akari_happy_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77478b4e03038a34c99d8044e9a489ef
+    m_Address: Akari/Akari_motivated_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 774e594c3d2ff1948acee1ace5355944
+    m_Address: Akari/Akari_apologetic_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79c6bed393fbdb6428278e92207f1570
+    m_Address: Akari/Akari_energetic_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7adc4f6a5cf922242b50b39aa37bf316
+    m_Address: Akari/Akari_embarrassed_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d0afb6720dc6ac4ab3c11e6595cd797
+    m_Address: Akari/Akari_surprised_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 826643b9a1cadae49a8e619466a97ec8
+    m_Address: Akari/Akari_nervous but determined_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a4dc9bb1916a854ea063e6e8a346072
+    m_Address: Akari/Akari_frustrated_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91f41b8f03cd3974abca06e5ce399652
+    m_Address: Akari/Akari_determined_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92f800fb217f730489f863b87dba2a6b
+    m_Address: Akari/Akari_surprised_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97710a6b1da3d63499b554adb5b2775c
+    m_Address: Akari/Akari_playful_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a2ea7e8cf1bd0b4db36d7f590949b63
+    m_Address: Akari/Akari_curious_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a8d9fd6e41aef44181a6c6838d7f27b
+    m_Address: Assets/02. Scripts/ScriptableObjects/Fersona/Lynn.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character_Lynn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ae7ee1db3fb8ba429004b7cd457a762
+    m_Address: Akari/Akari_sad_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b5530c9074c8c04b9c06c77e7595cb9
+    m_Address: Akari/Akari_playful_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0b70324cff7a5428be526bbd3368af
+    m_Address: Akari/Akari_proud_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a179c59044db5cc4d9688a9961c1e551
+    m_Address: Assets/02. Scripts/ScriptableObjects/Fersona/Hana.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character_Hana
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4818bf4219d9324ea508e07cfd3c4e5
+    m_Address: Akari/Akari_determined_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a495a35b3297aba43ac5ab37a13d9f48
+    m_Address: Akari/Akari_frustrated_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5d646d0cbe406043b59d9abf0c30d8a
+    m_Address: Akari/Akari_proud_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b78290199ce963643b13ec4520f67858
+    m_Address: Akari/Akari_curious_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba5c694bfc214a344a1278499d81c0ed
+    m_Address: Akari/Akari_happy_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc8a1e55b9b692644a52cee4670c4516
+    m_Address: Akari/Akari_embarrassed_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c094dcaaf65128242b1a72d15c37471a
+    m_Address: Akari/Akari_determined_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c34b854fe84faae468547917ae9fc83a
+    m_Address: Akari/Akari_sad_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3698d0a0dbef8546b26107a60cb4b22
+    m_Address: Akari/Akari_motivated_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6794ff5739872340a4daeffcfefd72e
+    m_Address: Assets/02. Scripts/ScriptableObjects/Fersona/Mei.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character_Mei
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53d68463ca959b4cb32bf2a4cf782ac
+    m_Address: Akari/Akari_embarrassed_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db6bf6f88e4fde740b10a495dd7b8986
+    m_Address: Akari/Akari_nervous but determined_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df1148bebb3d56844b7f8b9a86d5de26
+    m_Address: Akari/Akari_determined_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea0d7e0e5284c934784a70773223470c
+    m_Address: Akari/Akari_cheerful_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eae2d5e777052a9449d3f0371df6a006
+    m_Address: Akari/Akari_curious_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebadf9f2e8bcfec489397586617433c8
+    m_Address: Akari/Akari_apologetic_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec861fbdde07797479494763a4105f06
+    m_Address: Akari/Akari_proud_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec8f79344fc5a294f8a7fea132b155a6
+    m_Address: Akari/Akari_determined_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1b2d714987b9f747997b834b3a2fc44
+    m_Address: Akari/Akari_sad_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1ede599a83572348a4a1d9b9e6fd1af
+    m_Address: Akari/Akari_frustrated_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1fa024c1a7be724ab38833e9165b78a
+    m_Address: Akari/Akari_proud_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f91a970b21994e149a5c29c0347ceb57
+    m_Address: Akari/Akari_understanding_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb336e4b0a455774c92de0879ca70d16
+    m_Address: Akari/Akari_proud_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 64ff05d16fdf1d84191a905133f93d84, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d239fa95a0d93fa40866b4b368666eb7, type: 2}
+    - {fileID: 11400000, guid: 3dc946303ec34bc4899be57190ba3dd0, type: 2}
