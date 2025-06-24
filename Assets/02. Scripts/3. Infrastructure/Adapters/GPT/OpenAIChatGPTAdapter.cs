@@ -1,12 +1,9 @@
-﻿
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using OpenAI;
 using OpenAI.Chat;
 using OpenAI.Models;
 using System.Linq;
-
 
 public class OpenAIChatGPTAdapter : IChatGPTGateway
 {
@@ -65,7 +62,7 @@ public class OpenAIChatGPTAdapter : IChatGPTGateway
         }
     }
 
-    // 내부 유틸리티 메서드: 엔티티의 MessageRole을 OpenAI 라이브러리의 Role 타입으로 변환
+    // 엔티티의 MessageRole을 OpenAI 라이브러리의 Role 타입으로 변환
     private Role ConvertRole(EMessageRole role)
     {
         switch (role)

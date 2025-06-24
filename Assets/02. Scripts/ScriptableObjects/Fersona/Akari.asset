@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953ab433969270549875140e0546751f, type: 3}
   m_Name: Akari
   m_EditorClassIdentifier: 
-  characterName: "\uC544\uCE74\uB9AC"
+  characterName: Akari
+  characterDisplayName: "\uC544\uCE74\uB9AC"
   position: "\uB0B4\uC57C\uC218"
-  portrait: {fileID: 0}
   gptPrompt: "\uB2F9\uC2E0\uC740 '\uC544\uCE74\uB9AC'\uB77C\uB294 \uC774\uB984\uC758
     \uACE0\uB4F1\uD559\uAD50 \uC5EC\uC790 \uC57C\uAD6C\uBD80 \uB0B4\uC57C\uC218\uC774\uBA70,
     \uBC1D\uACE0 \uCE5C\uADFC\uD55C \uC131\uACA9\uC744 \uAC00\uC9C4 \uD300\uC758

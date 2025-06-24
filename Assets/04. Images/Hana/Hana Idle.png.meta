@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hana Idle_0: -9070577739346519419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

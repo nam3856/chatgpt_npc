@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953ab433969270549875140e0546751f, type: 3}
   m_Name: Rule
   m_EditorClassIdentifier: 
-  characterName: 
+  characterName: GlobalRule
+  characterDisplayName: 
   position: 
-  portrait: {fileID: 0}
   gptPrompt: "[json \uADDC\uCE59]\n\uB2F5\uBCC0\uC740 'ReplyMessage',\n\uAC10\uC815\uC740
     'Emotion' "

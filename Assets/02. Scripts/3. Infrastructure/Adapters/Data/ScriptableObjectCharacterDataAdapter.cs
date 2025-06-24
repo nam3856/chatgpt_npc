@@ -24,7 +24,7 @@ public class ScriptableObjectCharacterDataAdapter : ICharacterDataGateway
             BaseCharacterSO so = handle.Result;
             if (so != null)
             {
-                return new CharacterData(so.characterName, so.position, so.gptPrompt);
+                return new CharacterData(so.characterName, so.characterDisplayName, so.position, so.gptPrompt);
             }
             Debug.LogWarning($"[ScriptableObjectCharacterDataAdapter] CharacterSO not found for label: {label}");
             return null;
@@ -47,7 +47,7 @@ public class ScriptableObjectCharacterDataAdapter : ICharacterDataGateway
             BaseCharacterSO so = handle.Result;
             if (so != null)
             {
-                return new CharacterData(so.characterName, so.position, so.gptPrompt);
+                return new CharacterData(so.characterName, so.characterDisplayName, so.position, so.gptPrompt);
             }
             Debug.LogWarning($"[ScriptableObjectCharacterDataAdapter] RuleSO not found for label: {label}");
             return null;

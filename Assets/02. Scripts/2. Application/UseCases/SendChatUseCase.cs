@@ -5,6 +5,7 @@ public class SendChatUseCase
 {
     private readonly IChatGPTGateway _chatGPTGateway;
     private readonly IChatOutputPort _chatOutputPort;
+    private readonly ICharacterImageOutputPort _characterImageOutputPort; // 추가된 의존성
     private readonly List<ChatMessage> _conversationHistory;
     private readonly CharacterData _characterData;
     private readonly CharacterData _ruleData;
@@ -14,13 +15,15 @@ public class SendChatUseCase
         IChatOutputPort chatOutputPort,
         CharacterData characterData,
         CharacterData ruleData,
-        List<ChatMessage> conversationHistory)
+        List<ChatMessage> conversationHistory,
+        ICharacterImageOutputPort characterImageOutputPort) // 생성자 매개변수 추가
     {
         _chatGPTGateway = chatGPTGateway;
         _chatOutputPort = chatOutputPort;
         _characterData = characterData;
         _ruleData = ruleData;
         _conversationHistory = conversationHistory ?? new List<ChatMessage>();
+        _characterImageOutputPort = characterImageOutputPort; // 할당
 
         if (_conversationHistory.Count == 0 && !string.IsNullOrWhiteSpace(_characterData.GptPrompt))
         {
@@ -70,7 +73,13 @@ If you use emojis, the response is invalid.
             if (response != null && !string.IsNullOrEmpty(response.ReplyMessage))
             {
                 _conversationHistory.Add(new ChatMessage(EMessageRole.Assistant, response.ReplyMessage, response.Emotion));
-                _chatOutputPort.DisplayAiMessage(_characterData.Name, response.ReplyMessage, response.Emotion);
+                _chatOutputPort.DisplayAiMessage(_characterData.DisplayName, response.ReplyMessage, response.Emotion);
+
+                // 캐릭터 표정 업데이트
+                if (_characterImageOutputPort != null)
+                {
+                    await _characterImageOutputPort.UpdateCharacterImage(_characterData.Name, response.Emotion);
+                }
             }
             else
             {

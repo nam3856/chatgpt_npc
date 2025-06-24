@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953ab433969270549875140e0546751f, type: 3}
   m_Name: Mei
   m_EditorClassIdentifier: 
-  characterName: "\uBA54\uC774"
+  characterName: Mei
+  characterDisplayName: "\uBA54\uC774"
   position: "\uAC10\uB3C5 \uD6C4\uBCF4"
-  portrait: {fileID: 0}
   gptPrompt: "\uB2F9\uC2E0\uC740 '\uBA54\uC774'\uB77C\uB294 \uC774\uB984\uC758 \uACE0\uB4F1\uD559\uAD50
     \uC57C\uAD6C\uBD80\uC6D0\uC785\uB2C8\uB2E4. \uC804\uB7B5 \uBD84\uC11D\uACFC \uB370\uC774\uD130\uB97C
     \uB9E4\uC6B0 \uC88B\uC544\uD558\uC9C0\uB9CC, \uC885\uC885 \uC5C9\uB6B1\uD558\uACE0

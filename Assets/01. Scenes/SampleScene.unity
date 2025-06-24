@@ -2472,22 +2472,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0bdf08667d5f1840a32bffd7d12cc08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settingsSO: {fileID: 11400000, guid: 0f1063b3d9c91194ba03cad9726af1ad, type: 2}
+  settingsSO: {fileID: 11400000, guid: 9b1ee21f32aaae248ab8e0dae50fb7eb, type: 2}
   inputField: {fileID: 599062621}
-  characterSO: {fileID: 11400000, guid: 482ba66d5fd4d3544babb4f01af4246c, type: 2}
-  RuleSO: {fileID: 11400000, guid: 1f2daf24fa0270641a2f203dc0ff9577, type: 2}
   LoadingObject: {fileID: 404768835}
-  conversationHistory: []
   ChatPrefab: {fileID: 5744744379550410235, guid: 9f2bf18343c67f340bd669089e17840f, type: 3}
   ChatParent: {fileID: 879308526}
   chatScrollRect: {fileID: 1722277743}
   defaultSprite: {fileID: 449786777662082179, guid: 1816a698e25cd09418e1541e0c1d655d, type: 3}
-  audioSource: {fileID: 1648189303}
-  voice:
-    id: sage
-  characterImage: {fileID: 228198134}
-  allExpressions:
-  - {fileID: 11400000, guid: 2614a51a65216a24da17952c14ca3849, type: 2}
+  characterImageUI: {fileID: 228198134}
+  initialCharacterName: Akari
+  initialRuleName: GlobalRule
 --- !u!114 &1994902265
 MonoBehaviour:
   m_ObjectHideFlags: 0

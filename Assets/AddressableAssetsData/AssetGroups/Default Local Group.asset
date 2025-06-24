@@ -46,7 +46,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 197e357dd872c7840b9070529d572023
-    m_Address: Akari/Akari_curious_06
+    m_Address: Akari/Akari_curious_04
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
     - Character_Yui
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ced99db29c3d16478d613e392e5c463
-    m_Address: Akari/Akari_curious_05
+    m_Address: Akari/Akari_curious_03
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a2ea7e8cf1bd0b4db36d7f590949b63
-    m_Address: Akari/Akari_curious_03
+    m_Address: Akari/Akari_curious_06
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b78290199ce963643b13ec4520f67858
-    m_Address: Akari/Akari_curious_04
+    m_Address: Akari/Akari_curious_05
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

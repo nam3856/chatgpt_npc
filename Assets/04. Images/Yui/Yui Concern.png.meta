@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yui Concern_0: 6245697795262757155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
