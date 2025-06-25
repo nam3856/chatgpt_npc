@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 035d35462dd56dc4cbc5c4d948e2a370
+    m_Address: Akari/Akari_excited_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 040723906c2fe5c4eb3c758dca326f99
     m_Address: Akari/Akari_understanding_01
     m_ReadOnly: 0
@@ -27,6 +32,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 066dce64f31143746afd336d4cf3653e
     m_Address: Akari/Akari_nervous but determined_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0896ee93e99db924e9ea5a3ef5422ecc
+    m_Address: Akari/Akari_excited_04
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -61,11 +71,22 @@ MonoBehaviour:
     m_SerializedLabels:
     - Rule_GlobalRule
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f6e5d0ef538c334c9c865d1d846b83d
+    m_Address: Akari_flirting_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2614a51a65216a24da17952c14ca3849
     m_Address: Assets/02. Scripts/ScriptableObjects/Expressions/Akari.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - CharacterExpressions
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 288fb1783f3f01141be5f74291959a35
+    m_Address: Assets/02. Scripts/ScriptableObjects/Rule/Rule 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rule_LikabilityRule
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2bb88e70fcb95b24c88a303eb3032313
     m_Address: Akari/Akari_playful_03
@@ -219,6 +240,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b68d2071dc3a894ca748e6660914e9f
+    m_Address: Akari_flirting_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d0afb6720dc6ac4ab3c11e6595cd797
     m_Address: Akari/Akari_surprised_03
     m_ReadOnly: 0
@@ -231,6 +257,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a4dc9bb1916a854ea063e6e8a346072
     m_Address: Akari/Akari_frustrated_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db4e2c79f16b144a9d51c3e9628157a
+    m_Address: Akari/Akari_excited_03
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -296,6 +327,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa96f61b205f7454991d0e536e2abf11
+    m_Address: Akari/Akari_excited_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2ee44ab2a5f26c448b61c5ddf5bf39e
+    m_Address: Akari_flirting_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b78290199ce963643b13ec4520f67858
     m_Address: Akari/Akari_curious_05
     m_ReadOnly: 0
@@ -339,6 +380,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: db6bf6f88e4fde740b10a495dd7b8986
     m_Address: Akari/Akari_nervous but determined_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de8c9638ffeed404b96f9c6fb9ec6d5d
+    m_Address: Akari_flirting_01
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

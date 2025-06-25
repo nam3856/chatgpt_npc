@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: e5d6a4206c19869468ae113542ab97e5
   m_currentHash:
     serializedVersion: 2
-    Hash: 2bfe04cac4a87e261b0dffb115f08423
+    Hash: b4884b42bdca90e766fb1fd0020fc5e1
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
     - Character_Mei
     - Character_Yui
     - CharacterExpressions
+    - Rule_LikabilityRule
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: de728690927c0b540895c5f5850233cb, type: 2}
