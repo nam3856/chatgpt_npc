@@ -107,4 +107,13 @@ MonoBehaviour:
     - Akari_idle_02
   - emotion: excited
     spriteNames:
-    - Akari_happy_04
+    - Akari_excited_01
+    - Akari_excited_02
+    - Akari_excited_03
+    - Akari_excited_04
+  - emotion: flirting
+    spriteNames:
+    - Akari_flirting_01
+    - Akari_flirting_02
+    - Akari_flirting_03
+    - Akari_flirting_04

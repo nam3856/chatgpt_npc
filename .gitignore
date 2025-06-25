@@ -80,3 +80,7 @@ crashlytics-build.properties
 /[Aa]ssets/02. Scripts/0. APIKEY/OpenAISettings_Teacher.asset
 /[Aa]ssets/Resources/OpenAIConfiguration.asset
 /[Aa]ssets/Resources/OpenAIConfiguration.asset.meta
+Assets/02. Scripts/Interactions/0. APIKEY/OpenAISettings.asset
+Assets/02. Scripts/Interactions/0. APIKEY/OpenAISettings.asset.meta
+Assets/02. Scripts/Interactions/0. APIKEY/OpenAISettings_Teacher.asset
+Assets/02. Scripts/Interactions/0. APIKEY/OpenAISettings_Teacher.asset.meta
