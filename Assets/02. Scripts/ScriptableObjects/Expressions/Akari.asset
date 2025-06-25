@@ -117,3 +117,9 @@ MonoBehaviour:
     - Akari_flirting_02
     - Akari_flirting_03
     - Akari_flirting_04
+  - emotion: disappointed
+    spriteNames:
+    - Akari_disappointed_01
+    - Akari_disappointed_02
+    - Akari_disappointed_03
+    - Akari_disappointed_04

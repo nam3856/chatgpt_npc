@@ -17,6 +17,7 @@ public class GPTManager : MonoBehaviour, IChatOutputPort
     [SerializeField] private GameObject ChatPrefab;
     [SerializeField] private GameObject ChatParent;
     [SerializeField] private ScrollRect chatScrollRect;
+    [SerializeField] private TextMeshProUGUI LikabilityText;
     public Sprite defaultSprite;
 
     [Header("Character Image")]
@@ -109,6 +110,8 @@ public class GPTManager : MonoBehaviour, IChatOutputPort
             int delta = await _evaluateLikabilityUseCase.ExecuteAsync(request);
 
             characterData.UpdateLikabilityScore(delta);
+
+            LikabilityText.text = $"호감도: {characterData.LikabilityScore} (변화: {delta})";
 
             Debug.Log($"[호감도] +{delta} → 현재 호감도: {characterData.LikabilityScore}");
         }

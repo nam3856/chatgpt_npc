@@ -5,6 +5,7 @@ using OpenAI.Chat;
 using OpenAI.Models;
 using System.Linq;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 public class OpenAIChatGPTAdapter : IChatGPTGateway
 {
@@ -45,17 +46,18 @@ public class OpenAIChatGPTAdapter : IChatGPTGateway
         if (!string.IsNullOrEmpty(aiMessageContent))
         {
             string cleanedJson = aiMessageContent.Replace("```json", "").Replace("```", "").Trim();
+            cleanedJson = WrapAsJson(cleanedJson); // 여기 추가
+
             try
             {
-                var parsed = UnityEngine.JsonUtility.FromJson<ChatResponseJson>(cleanedJson);
+                var parsed = JsonUtility.FromJson<ChatResponseJson>(cleanedJson);
                 return new GPTResponseData(parsed.ReplyMessage, parsed.Emotion);
             }
             catch (System.Exception e)
             {
-                // JSON 파싱 실패 시, 원문 메시지를 응답으로 반환하고 Emotion은 null로 처리
-                UnityEngine.Debug.LogWarning($"JSON parsing failed. Returning raw message. Error: {e.Message}, {cleanedJson}");
+                Debug.LogWarning($"JSON parsing failed. Returning raw message. Error: {e.Message}, {cleanedJson}");
                 string safeMessage = ExtractPlaintextMessage(cleanedJson);
-                return new GPTResponseData(safeMessage, "Neutral");
+                return new GPTResponseData(safeMessage, InferEmotionLocally(cleanedJson));
             }
         }
         else
@@ -63,7 +65,15 @@ public class OpenAIChatGPTAdapter : IChatGPTGateway
             return new GPTResponseData("GPT returned no choices or an empty message.", null);
         }
     }
-
+    private string WrapAsJson(string content)
+    {
+        // "ReplyMessage": "...", "Emotion": "..." 이런 형식일 때 감싸기
+        if (content.TrimStart().StartsWith("\"ReplyMessage\""))
+        {
+            return "{" + content.Trim().Trim(',') + "}";
+        }
+        return content;
+    }
     // 엔티티의 MessageRole을 OpenAI 라이브러리의 Role 타입으로 변환
     private Role ConvertRole(EMessageRole role)
     {

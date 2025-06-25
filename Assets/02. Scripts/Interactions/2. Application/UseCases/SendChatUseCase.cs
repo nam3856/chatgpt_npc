@@ -35,6 +35,7 @@ public class SendChatUseCase
 {_characterData.GptPrompt}
 ";
             _conversationHistory.Add(new ChatMessage(EMessageRole.System, systemPrompt));
+            Debug.Log(systemPrompt);
         }
     }
 

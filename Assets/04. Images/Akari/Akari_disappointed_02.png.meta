@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Akari_disappointed_02_0: -8026486630502679339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

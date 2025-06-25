@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Akari_excited_03_0: -8451365268084248130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
